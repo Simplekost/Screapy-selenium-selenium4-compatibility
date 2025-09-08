@@ -175,7 +175,8 @@ class SeleniumMiddleware:
 
     def spider_closed(self):
         self.driver.quit()
----
+
+```
 
 ## Recommended settings (`settings.py`)
 
