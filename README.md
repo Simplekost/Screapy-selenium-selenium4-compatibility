@@ -69,11 +69,9 @@ pip show -f scrapy-selenium
 
 A hardened, copy/paste-ready middleware implementation is included in this document. Use it to replace `middlewares.py` in your site-packages or keep it as a local project middleware and point `DOWNLOADER_MIDDLEWARES` at it.
 
----
 Drop this in your Scrapy-Selenium Middleware.py
 
----python
-
+```python
 from importlib import import_module
 from scrapy import signals
 from scrapy.exceptions import NotConfigured
